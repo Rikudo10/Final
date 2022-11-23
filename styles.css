@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.container {
+    position: relative;
+}
+.section {
+    position: relative;
+}
+/*NavMenu*/
+.navbar {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.navbar-nav {
+    margin-left: auto !important;
+}
+.nav-link {
+    margin-right: 67px !important; 
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #333333 !important;
+}
+.navbar-brand {
+    font-size: 34px !important;
+    font-weight: 700 !important;
+    color: #054C73 !important;
+}
+/*Section 1*/
+.hero {
+    position: relative;
+    background: url(image/Mask\ Group.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#firstcard {
+    position: absolute;
+    transform: translate(0px, 50%);
+    right: 0;
+    background-color: #DFE9F4 !important;
+    border-radius: 10px;
+    border: none !important;
+    padding-bottom: 20px;
+}
+.p1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+.firsth1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #054C73;
+    padding-bottom: 20px;
+}
+.p2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    padding-bottom: 20px;
+}
+.button1 {
+    background-color: #054C73 !important;
+    border-radius: 50px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+/*Mini Section*/
+.section2 {
+    background-color: #F2F5FF;
+}
+.allcars {
+    display: flex;
+}
+.car {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cars {
+    display: flex;
+}
+.cars {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.div1 {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.h4s {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+.p2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+/*Section 3*/
+.section3 {
+    padding-top: 60px;
+}
+.tittle {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.h4s1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.p3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+.images {
+    display: flex;
+    padding-bottom: 50px;
+}
+.img1 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.img2 {
+    padding-left: 30px;
+}
+/*Section 4*/
+.section4  {
+    background-color: #F2F5FF;
+    padding-bottom: 280px;
+    padding-top: 50px;
+}
+.tittle2 {
+    width: 514px;
+    padding-bottom: 50px;
+    padding-top: 252px;
+    z-index: 2;
+}
+.h3s {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.p3 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #666666;
+}
+.a1 {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: #054C73;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cont4 {
+    display: flex;
+}
+.img3 {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+/*Section5*/
+.section5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.h3s1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.tittle3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.p4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+.image2 {
+    display: flex;
+}
+.img01 {
+    padding-left: 17px;
+}
+.h3s2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.rgoli {
+    position: absolute;
+    height: 373.7103576660156px;
+    width: 372px;
+    top: 0;
+    transform: translate(80%, 50%);
+    border-radius: 100%;
+    background-color: #09513B;
+}
+/*Section 6*/
+.section6 {
+    padding-bottom: 196px;
+}
+.tittle4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.h4s2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.p5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+.image002 {
+    display: flex;
+}
+.img4 {
+    padding-right: 20px;
+}
+.span01 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.rgoli2 {
+    border: 15px solid white;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    vertical-align: middle;
+    transform: translate(150px, -50%);
+    padding-top: 10px;
+}
+.h2s1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.p6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+/*Section 7*/
+.section7 {
+    background-color: #F2F5FF;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.tittle5 {
+    height: 71px;
+    width: 514px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.h2s2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.p7 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+.emaili {
+    font-size: 16px;
+    font-weight: 400;
+    color: #011C42;
+}
+.emaili {
+    position: relative;
+    padding-left: 30px;
+    font-size: 20px;
+    height: 70px;
+    width: 333px;
+    border: 1px solid #054C73;
+}
+.button5 {
+    position: absolute ;
+    height: 70px;
+    width: 153px;
+    background-color: #054C73;
+    padding-top: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.submitclass {
+    text-align: center;
+    transform: translate(-10%);
+}
+/*Footer*/
+footer {
+    background-color: rgba(3, 52, 79, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#cont0 {
+    display: flex;
+}
+.h3f {
+
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+}
+.pf {
+    height: 97px;
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+}
+.h3f1 {
+    height: 29px;
+    width: 250px;
+    color: rgba(255, 255, 255, 1);
+}
+.imgfooter {
+    padding-left: 20px;
+}
+.hfooter {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.instagramimg {
+    display: flex;
+}
