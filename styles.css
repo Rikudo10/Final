@@ -353,6 +353,26 @@ footer {
     display: flex;
 }
 /*Responsive*/
+@media only screen and (max-width: 1325px) {
+  .hero {
+    height: 570px;
+  }
+  .rgoli {
+    display: none;
+  }
+  .image1 {
+    width: 420px;
+  }
+  .img007 {
+    width: 300px;
+  }
+  .img008 {
+    width: 300px;
+  }
+  .img006 {
+    width: 290px;
+  }
+}
 @media only screen and (max-width: 1024px) {
     #firstcard {
         width: auto !important;
@@ -592,7 +612,7 @@ footer {
 }
 @media only screen and (max-width: 476px) {
     .hero {
-        height: 240px;
+        height: 220px;
     }
     #firstcard {
         width: auto !important;
