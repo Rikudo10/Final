@@ -635,5 +635,9 @@ footer {
     }
     .submitclass {
       padding-top: 50px;
+      padding-left: 10px;
     }
+    .emaili {
+      padding-left: 5px;
+  }
 }
