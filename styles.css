@@ -298,7 +298,6 @@
     padding-left: 30px;
     font-size: 20px;
     height: 70px;
-    width: 333px;
     border: 1px solid #054C73;
 }
 .button5 {
@@ -315,7 +314,7 @@
 }
 .submitclass {
     text-align: center;
-    transform: translate(-10%);
+    transform: translate(-7%);
 }
 /*Footer*/
 footer {
@@ -352,4 +351,289 @@ footer {
 }
 .instagramimg {
     display: flex;
+}
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+    #firstcard {
+        width: auto !important;
+        max-width: 100%;
+  }
+  .rgoli {
+    display: none;
+  }
+  .image1 {
+    width: 420px;
+  }
+  .img007 {
+    width: 300px;
+  }
+  .img008 {
+    width: 300px;
+  }
+  .img006 {
+    width: 290px;
+  }
+}
+@media only screen and (max-width: 991px) {
+    #firstcard {
+        width: 320px !important;
+        transform: translate(0px, 20px);
+  }
+  .section4 {
+    padding-bottom: 150px;
+    padding-top: 10px;
+  }
+  .firsth1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  .img006 {
+    width: 220px;
+  }
+  .image1 {
+    width: 300px;
+  }
+  .img3 {
+    padding-top: 190px;
+  }
+  .tittle2 {
+    width: 300px;
+  }
+  .img007 {
+    width: 220px;
+  }
+  .img008 {
+    width: 220px;
+  }
+  .rgoli2 {
+    transform: translate(70px, -50%);
+  }
+  #cont0 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .p1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .firsth1 {
+    padding-bottom: 0;
+  }
+  .img009 {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 818px) {
+  .img006 {
+    width: 160px;
+  }
+  .image1 {
+    width: 250px;
+  }
+  .tittle2 {
+    width: 250px;
+  }
+  .img007 {
+    width: 160px;
+  }
+  .img008 {
+    width: 160px;
+    padding-bottom: 20px;
+  }
+  .rgoli2 {
+    display: none;
+  }
+  .image2 {
+    padding-left: 60px;
+  }
+  .hero {
+    height: 410px;
+  }
+  .allcars {
+    display: block;
+  }
+}
+@media only screen and (max-width: 674px) {
+    .hero {
+        height: 350px;
+    }
+    .image2 {
+        padding-left: 0;
+    }
+    .a1 {
+        padding-left: 42px;
+        padding-right: 42px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .card-body {
+        padding: 0 !important;
+        padding-left: 5px !important;
+    }
+}
+@media only screen and (max-width: 622px) {
+    .img006 {
+      width: 150px;
+    }
+}
+@media only screen and (max-width: 462px) {
+    .image002 {
+      display: block;
+    }
+}
+@media only screen and (max-width: 566px) {
+    .hero {
+        height: 290px;
+    }
+    .p1 {
+        display: none;
+    }
+    .img006 {
+        width: 130px;
+      }
+      .image1 {
+        width: 270px;
+        padding-top: 50px;
+      }
+      .tittle2 {
+        width: 220px;
+      }
+      .img007 {
+        width: 130px;
+      }
+      .img008 {
+        width: 130px;
+        padding-bottom: 20px;
+      }
+      .rgoli2 {
+        display: none;
+      }
+      .image2 {
+        padding-left: 60px;
+      }
+      .section6 {
+        padding-bottom: 50px;
+      }
+      .image002 {
+        padding-left: 30px;
+      }
+      .img009 {
+        width: 80px;
+      }
+}
+@media only screen and (max-width: 534px) {
+    .hero {
+        height: 270px;
+    }
+    .image2 {
+        padding-left: 30px;
+    }
+    .image1 {
+        width: 200px;
+    }
+    .section4 {
+        padding-bottom: 50px;
+    }
+    .tittle2 {
+        padding-bottom: 50px;
+        padding-top: 152px;
+    }
+    .tittle5 {
+        width: auto;
+    }
+    .emaili {
+        width: auto;
+    }
+    .submitclass {
+        transform: translate(-15%);
+    }
+}
+@media only screen and (max-width: 502px) {
+      .img006 {
+        width: 120px;
+      }
+      .image1 {
+        width: 150px;
+      }
+      .img3 {
+        padding-top: 100px;
+      }
+      .img007 {
+        width: 120px;
+      }
+      .img008 {
+        width: 120px;
+      }
+      .img009 {
+        width: 70px;
+      }
+}
+@media only screen and (max-width: 476px) {
+    .hero {
+        height: 240px;
+    }
+    #firstcard {
+        width: auto !important;
+    }
+    .img006 {
+        width: 90px;
+      }
+      .image1 {
+        width: 180px;
+      }
+      .img3 {
+        padding-top: 100px;
+      }
+      .img007 {
+        width: 90px;
+      }
+      .img008 {
+        width: 90px;
+      }
+      .img009 {
+        width: 70px;
+      }
+      .emaili {
+        font-size: 15px;
+      }
+}
+@media only screen and (max-width: 444px) {
+    .image002 {
+        display: block;
+    }
+    .image2 {
+        padding-left: 0;
+    }
+    .image1 {
+        display: none;
+    }
+    .tittle2 {
+        margin: auto;
+    }
+    .submitclass {
+        transform: translate(-22%);
+    }
+    .img009 {
+        width: 50px;
+      }
+}
+@media only screen and (max-width: 372px) {
+    .img006 {
+        width: 60px;
+    }
+    .img007 {
+        width: 60px;
+    }
+    .button5 {
+      height: 70px;
+      width: 120px;
+    }
+    .emaili {
+      padding-left: 0;
+    }
+    .h3s2 {
+      font-size: 17px;
+    }
+    .submitclass {
+      padding-top: 50px;
+    }
 }
