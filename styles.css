@@ -634,10 +634,15 @@ footer {
       font-size: 17px;
     }
     .submitclass {
-      padding-top: 50px;
-      padding-left: 10px;
+      padding-top: 90px;
+      padding-left: 40px;
     }
     .emaili {
       padding-left: 5px;
-  }
+      font-size: 12px;
+    }
+    .button5 {
+      height: 70px;
+      width: 80px;
+    }
 }
