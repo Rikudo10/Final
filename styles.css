@@ -358,6 +358,9 @@ footer {
         width: auto !important;
         max-width: 100%;
   }
+  .hero {
+    height: 530px;
+  }
   .rgoli {
     display: none;
   }
@@ -422,6 +425,16 @@ footer {
     width: 120px;
   }
 }
+@media only screen and (max-width: 922px) {
+  .hero {
+    height: 470px;
+  }
+}
+@media only screen and (max-width: 888px) {
+  .hero {
+    height: 400px;
+  }
+}
 @media only screen and (max-width: 818px) {
   .img006 {
     width: 160px;
@@ -452,6 +465,11 @@ footer {
     display: block;
   }
 }
+@media only screen and (max-width: 784px) {
+    .hero {
+      height: 370px;
+    }
+}
 @media only screen and (max-width: 674px) {
     .hero {
         height: 350px;
@@ -468,6 +486,11 @@ footer {
     .card-body {
         padding: 0 !important;
         padding-left: 5px !important;
+    }
+}
+@media only screen and (max-width: 648px) {
+    .hero {
+      height: 320px;
     }
 }
 @media only screen and (max-width: 622px) {
